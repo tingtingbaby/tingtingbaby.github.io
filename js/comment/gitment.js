@@ -434,7 +434,7 @@ function loginLink() {
 	// const redirect_uri = window.commentConfig.redirect_uri || window.location.href
 	const client_id = window.commentConfig.client_id
 	const client_secret = window.commentConfig.client_secret
-	return oauthUri + '&client_id=' + client_id + '&client_secret=' + client_secret
+	return oauthUri + 'client_id=' + client_id + '&client_secret=' + client_secret
 }
 
 // 添加表情字符串
