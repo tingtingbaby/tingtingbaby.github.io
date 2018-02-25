@@ -200,6 +200,15 @@
 </article>
 
 
+<div id="comments-template"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script>
+	if(!window.commentConfig) {
+      window.commentConfig = {}
+      window.commentConfig.title = 'tags'
+    }
+</script>
+
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
@@ -317,7 +326,7 @@
             <div class="tab-content">
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/hexo/" style="font-size: 11.974668792594848px;" class="tag-cloud-link">hexo</a>
+    <a href="/tags/hexo/" style="font-size: 8.745022592665297px;" class="tag-cloud-link">hexo</a>
     
 </div>
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
@@ -420,5 +429,25 @@
 <script src="/js/blog.js"></script>
 
 
+
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.owner = '36814466'
+      window.commentConfig.repo = 'comment'
+      window.commentConfig.client_id = '4275f855a2d8beee1924'
+      window.commentConfig.client_secret = '408ba4dacecd089d1505d0dfe9aacdcae509b7c5'
+      window.commentConfig.redirect_uri = 'null'
+    } else {
+      window.commentConfig = {
+        owner: '36814466',
+        repo: 'comment',
+        client_id: '4275f855a2d8beee1924',
+        client_secret: '408ba4dacecd089d1505d0dfe9aacdcae509b7c5',
+        redirect_uri: 'null'
+      }
+    }
+</script>
+<script src="/js/comment/gitment.js"></script>
 
 </html>
